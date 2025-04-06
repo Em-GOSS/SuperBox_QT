@@ -1,0 +1,1 @@
+#include "BattleDetails.h"

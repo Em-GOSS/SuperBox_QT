@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+***************************************************************************************************
+ Copyright (C) 2023 The Qt Company Ltd.
+ SPDX-License-Identifier: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+***************************************************************************************************
+-->
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{873DEE62-2EF5-4512-B1DA-06C4E07AA4C1}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtModules>core;gui;widgets;concurrent</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+    <QtInstall>5.12.12_msvc2017_64</QtInstall>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+    <QtInstall>5.12.12_msvc2017_64</QtInstall>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <IncludePath>C:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtConcurrent;C:\Users\86137\source\repos\SuperBox\x64\Debug\uic;C:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtUiPlugin;C:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtUiTools;C:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtGui;C:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtCore;C:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtWidgets;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Qt\Qt5.12.12\5.12.12\msvc2017_64\lib$(QMake_QT_INSTALL_CONFIGURATION_);$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>C:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include;$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <IncludePath>C:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Qt\Qt5.12.12\5.12.12\msvc2017_64\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimatedGraphicsView.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Animator.cpp" />
+    <ClCompile Include="Bag.cpp" />
+    <ClCompile Include="Bar.cpp" />
+    <ClCompile Include="BattleDetails.cpp" />
+    <ClCompile Include="BattleWindow.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletCustomizeManager.cpp" />
+    <ClCompile Include="BulletDetails.cpp" />
+    <ClCompile Include="BulletManager.cpp" />
+    <ClCompile Include="ButtonsManager.cpp" />
+    <ClCompile Include="CodeCreater.cpp" />
+    <ClCompile Include="CustomizeManager.cpp" />
+    <ClCompile Include="CustomizeSlot.cpp" />
+    <ClCompile Include="DamageDetails.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyCreater.cpp" />
+    <ClCompile Include="EnterUIManager.cpp" />
+    <ClCompile Include="EnterWindow.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntityProperty.cpp" />
+    <ClCompile Include="Enums.cpp" />
+    <ClCompile Include="InventoryManager.cpp" />
+    <ClCompile Include="ISaveable.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemCreater.cpp" />
+    <ClCompile Include="LoadManager.cpp" />
+    <ClCompile Include="LoadSlot.cpp" />
+    <ClCompile Include="LoadUIManager.cpp" />
+    <ClCompile Include="MiscSettingsImporter.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PowerManager.cpp" />
+    <ClCompile Include="PropertiesUI.cpp" />
+    <ClCompile Include="RigidBody.cpp" />
+    <ClCompile Include="SaveDetails.cpp" />
+    <ClCompile Include="SaveIcon.cpp" />
+    <ClCompile Include="SaveManager.cpp" />
+    <ClCompile Include="SelectUI.cpp" />
+    <ClCompile Include="Setting.cpp" />
+    <ClCompile Include="Structs.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
+    <ClCompile Include="TimeTest.cpp" />
+    <ClCompile Include="TimeUpdater.cpp" />
+    <QtRcc Include="EnterWindow.qrc" />
+    <QtRcc Include="superbox.qrc" />
+    <QtUic Include="EnterWindow.ui" />
+    <QtUic Include="superbox.ui" />
+    <QtMoc Include="superbox.h" />
+    <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="superbox.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="AnimatedGraphicsView.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Animator.h" />
+    <ClInclude Include="Bag.h" />
+    <ClInclude Include="Bar.h" />
+    <ClInclude Include="BattleDetails.h" />
+    <ClInclude Include="BattleWindow.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletCustomizeManager.h" />
+    <ClInclude Include="BulletDetails.h" />
+    <ClInclude Include="BulletManager.h" />
+    <ClInclude Include="ButtonsManager.h" />
+    <ClInclude Include="CodeCreater.h" />
+    <ClInclude Include="CustomizeManager.h" />
+    <ClInclude Include="CustomizeSlot.h" />
+    <ClInclude Include="DamageDetails.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyCreater.h" />
+    <QtMoc Include="EnterWindow.h" />
+    <ClInclude Include="EnterUIManager.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityProperty.h" />
+    <ClInclude Include="Enums.h" />
+    <ClInclude Include="InventoryManager.h" />
+    <ClInclude Include="ISaveable.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemCreater.h" />
+    <ClInclude Include="LoadManager.h" />
+    <ClInclude Include="LoadSlot.h" />
+    <ClInclude Include="LoadUIManager.h" />
+    <ClInclude Include="MiscSettingsImporter.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PowerManager.h" />
+    <ClInclude Include="PropertiesUI.h" />
+    <ClInclude Include="RigidBody.h" />
+    <ClInclude Include="SaveDetails.h" />
+    <ClInclude Include="SaveIcon.h" />
+    <ClInclude Include="SaveManager.h" />
+    <ClInclude Include="SelectUI.h" />
+    <ClInclude Include="Setting.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Structs.h" />
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="TimeManager.h" />
+    <ClInclude Include="TimeTest.h" />
+    <ClInclude Include="TimeUpdater.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\MISC">
+      <UniqueIdentifier>{e907296d-1b88-40b8-9a2c-8c82adeab2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MISC">
+      <UniqueIdentifier>{a771c476-9ed0-474b-ac3f-e6d480e4e86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physic">
+      <UniqueIdentifier>{7a054377-bf04-4c7f-bfd8-21ea55c0f190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physic">
+      <UniqueIdentifier>{31a903b0-17a5-4d0f-9453-fe905be63ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Time">
+      <UniqueIdentifier>{bc4ff2c9-1193-4e60-b58c-c7a51ba3cea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Time">
+      <UniqueIdentifier>{d7f1800a-9442-4be7-8b37-cf8d2366e249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Inventory">
+      <UniqueIdentifier>{d5389ad8-04eb-4034-a8bc-c0c6892d4be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Inventrory">
+      <UniqueIdentifier>{fbd81ba1-e275-47c9-9e08-f48956b4aa36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{2eb2fe4c-58a5-490e-adba-483cba02e8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity">
+      <UniqueIdentifier>{26fd9e0d-b156-4d6b-9572-16c304a56359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Player">
+      <UniqueIdentifier>{34c61edf-db3e-43ac-859f-25cd61e92d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Player">
+      <UniqueIdentifier>{16c9159e-3b1d-4814-8bef-7a566d9c75c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BattleSystem">
+      <UniqueIdentifier>{8882e054-fd62-4a8b-8de3-523f2a171a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BattleSystem">
+      <UniqueIdentifier>{579d86dd-04db-43a1-a2da-278e281bd77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Enemy">
+      <UniqueIdentifier>{5d2f981e-97e6-43ae-b9f2-a8b8f63dad19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Enemy">
+      <UniqueIdentifier>{38f03970-9207-48b6-9f02-6f87813dac70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animator">
+      <UniqueIdentifier>{239ae71b-a54f-4be1-9a49-eeaf01745954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animator">
+      <UniqueIdentifier>{2dafefc5-c473-40d7-b883-b22ff9185465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BattleSystem\Bullet">
+      <UniqueIdentifier>{ba0b8d0b-f89d-4f0a-9b3a-eac5afa43b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BattleSystem\Bullet">
+      <UniqueIdentifier>{01eb413a-a8fb-43f9-a065-319bbbde1cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BattleSystem\Power">
+      <UniqueIdentifier>{4092846a-14b8-46a1-ad4c-0c5b83ec2d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BattleSystem\Power">
+      <UniqueIdentifier>{7004551b-bf70-4b3c-abea-602018392ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{686152e8-b545-4361-ae30-9e363eafc2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{0b14818e-cb87-4b13-9cc2-6389d4e59049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QTWidget">
+      <UniqueIdentifier>{2890b6b8-b2cd-4403-a3d4-9b9d286bff50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QTWidget">
+      <UniqueIdentifier>{3d0e35cc-ce32-45be-87fd-eba97968ec45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SaveLoad">
+      <UniqueIdentifier>{405e332b-3d3f-4a93-9b7a-604cb973992b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SaveLoad">
+      <UniqueIdentifier>{38e5c4e0-c806-450a-aaf4-303c373d58f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CodeTool">
+      <UniqueIdentifier>{1cae1aa2-6543-4469-859c-3239e3b760b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CodeTool">
+      <UniqueIdentifier>{1fd74384-cc63-42c7-83c5-b9bcc47e5f59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Customize">
+      <UniqueIdentifier>{fc5fc274-8848-4fb6-a2ba-2808a76099a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Customize">
+      <UniqueIdentifier>{3893a3a9-7707-4d06-b8f6-5e5468049711}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="superbox.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="superbox.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtRcc Include="EnterWindow.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Source Files\MISC</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files\MISC</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Source Files\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeUpdater.cpp">
+      <Filter>Source Files\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Source Files\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCreater.cpp">
+      <Filter>Source Files\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Enums.cpp">
+      <Filter>Source Files\MISC</Filter>
+    </ClCompile>
+    <ClCompile Include="Bag.cpp">
+      <Filter>Source Files\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryManager.cpp">
+      <Filter>Source Files\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityProperty.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleWindow.cpp">
+      <Filter>Source Files\BattleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Source Files\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeTest.cpp">
+      <Filter>Source Files\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>Source Files\MISC</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>Source Files\BattleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs.cpp">
+      <Filter>Source Files\MISC</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyCreater.cpp">
+      <Filter>Source Files\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Source Files\BattleSystem\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\BattleSystem\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerManager.cpp">
+      <Filter>Source Files\BattleSystem\Power</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletDetails.cpp">
+      <Filter>Source Files\BattleSystem\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageDetails.cpp">
+      <Filter>Source Files\BattleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesUI.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectUI.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="superbox.cpp">
+      <Filter>Source Files\QTWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterWindow.cpp">
+      <Filter>Source Files\QTWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterUIManager.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedGraphicsView.cpp">
+      <Filter>Source Files\QTWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveDetails.cpp">
+      <Filter>Source Files\SaveLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadSlot.cpp">
+      <Filter>Source Files\SaveLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonsManager.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscSettingsImporter.cpp">
+      <Filter>Source Files\MISC</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveManager.cpp">
+      <Filter>Source Files\SaveLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleDetails.cpp">
+      <Filter>Source Files\BattleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeCreater.cpp">
+      <Filter>Source Files\CodeTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadManager.cpp">
+      <Filter>Source Files\SaveLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="ISaveable.cpp">
+      <Filter>Source Files\SaveLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadUIManager.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomizeManager.cpp">
+      <Filter>Source Files\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomizeSlot.cpp">
+      <Filter>Source Files\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletCustomizeManager.cpp">
+      <Filter>Source Files\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveIcon.cpp">
+      <Filter>Source Files\SaveLoad</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files\MISC</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files\MISC</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Header Files\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Header Files\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\Inventrory</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCreater.h">
+      <Filter>Header Files\Inventrory</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files\MISC</Filter>
+    </ClInclude>
+    <ClInclude Include="Bag.h">
+      <Filter>Header Files\Inventrory</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryManager.h">
+      <Filter>Header Files\Inventrory</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityProperty.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Header Files\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeTest.h">
+      <Filter>Header Files\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>Header Files\BattleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Header Files\MISC</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyCreater.h">
+      <Filter>Header Files\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeUpdater.h">
+      <Filter>Header Files\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleWindow.h">
+      <Filter>Header Files\BattleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>Header Files\MISC</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\BattleSystem\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Header Files\BattleSystem\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerManager.h">
+      <Filter>Header Files\BattleSystem\Power</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletDetails.h">
+      <Filter>Header Files\BattleSystem\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageDetails.h">
+      <Filter>Header Files\BattleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectUI.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesUI.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterUIManager.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveDetails.h">
+      <Filter>Header Files\SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadSlot.h">
+      <Filter>Header Files\SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonsManager.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscSettingsImporter.h">
+      <Filter>Header Files\MISC</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveManager.h">
+      <Filter>Header Files\SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleDetails.h">
+      <Filter>Header Files\BattleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeCreater.h">
+      <Filter>Header Files\CodeTool</Filter>
+    </ClInclude>
+    <ClInclude Include="ISaveable.h">
+      <Filter>Header Files\SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadManager.h">
+      <Filter>Header Files\SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadUIManager.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomizeManager.h">
+      <Filter>Header Files\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletCustomizeManager.h">
+      <Filter>Header Files\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomizeSlot.h">
+      <Filter>Header Files\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveIcon.h">
+      <Filter>Header Files\SaveLoad</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="superbox.h">
+      <Filter>Header Files\QTWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="AnimatedGraphicsView.h">
+      <Filter>Header Files\QTWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="EnterWindow.h">
+      <Filter>Header Files\QTWidget</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="EnterWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>

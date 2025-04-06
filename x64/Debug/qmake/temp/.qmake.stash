@@ -1,0 +1,35 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 199711L
+QMAKE_CXX.QMAKE_MSC_VER = 1929
+QMAKE_CXX.QMAKE_MSC_FULL_VER = 192930152
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_MSC_VER \
+    QMAKE_MSC_FULL_VER
+QMAKE_CXX.INCDIRS = \
+    C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\include\\QtConcurrent \
+    C:\\Users\\86137\\source\\repos\\SuperBox\\x64\\Debug\\uic \
+    C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\include\\QtUiPlugin \
+    C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\include\\QtUiTools \
+    C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\include\\QtGui \
+    C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\include\\QtCore \
+    C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\include\\QtWidgets \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include" \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include" \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt" \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um" \
+    C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\include
+QMAKE_CXX.LIBDIRS = \
+    C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\lib \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64" \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\lib\\x64" \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\lib\\x64" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x64" \
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\lib" \
+    "C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x64" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\lib\\um\\x64"
