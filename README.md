@@ -12,7 +12,7 @@
 
 *Flying posion ball*
 
-![image](https://github.com/Em-GOSS/SuperBox_QT/blob/master/image/SuperBox/EnergyIDLE.gif)
+![image](https://github.com/Em-GOSS/SuperBox_QT/blob/master/image/SuperBox/Flying%20posionBall-exporx4t.gif)
 
 *Save and load UI*
 
@@ -20,7 +20,7 @@
 
 *Slime*
 
-![image](https://github.com/Em-GOSS/SuperBox_QT/blob/master/image/SuperBox/Evil_Slime1.gif)
+![image](https://github.com/Em-GOSS/SuperBox_QT/blob/master/image/SuperBox/Evil_Slime1t.gif)
 
 *SuperBox*
 
