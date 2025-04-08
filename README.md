@@ -12,7 +12,7 @@
 
 *Flying posion ball*
 
-![image](https://github.com/Em-GOSS/SuperBox_QT/blob/master/image/SuperBox/Flying%20posionBall-exporx4t.gif)
+![image](https://github.com/Em-GOSS/SuperBox_QT/blob/master/image/SuperBox/Flying%20posionBall-exporx8t.gif)
 
 *Save and load UI*
 
