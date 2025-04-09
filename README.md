@@ -31,4 +31,4 @@
 
 
 ### 演示视频 demo video
-[![](https://bb-embed.zjffun.com/embed?v=BV1jS4y1w7SW)](//player.bilibili.com/player.html?isOutside=true&aid=114302954505823&bvid=BV1GmdpYvEQj&cid=29306127525&p=1)
+[![](https://github.com/Em-GOSS/SuperBox_QT/blob/master/image/BG/SuperBOX_Tittle_p.png)](//player.bilibili.com/player.html?isOutside=true&aid=114302954505823&bvid=BV1GmdpYvEQj&cid=29306127525&p=1)
