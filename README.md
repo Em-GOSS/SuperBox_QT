@@ -4,7 +4,7 @@
 
 *Convergence of Water Balloon*
 
-![image](https://github.com/Em-GOSS/SuperBox_QT/blob/master/image/SuperBox/WaterIDLE.gif)
+![image](https://github.com/Em-GOSS/SuperBox_QT/blob/master/image/SuperBox/WaterIDLE.gif#pic_center)
 
 *The spread of energy*
 
@@ -25,3 +25,11 @@
 *SuperBox*
 
 ![image](https://github.com/Em-GOSS/SuperBox_QT/blob/master/image/SuperBox/SuperBox_Idle.gif)
+
+
+### 演示视频 demo video 
+
+---
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114302954505823&bvid=BV1GmdpYvEQj&cid=29306127525&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+---

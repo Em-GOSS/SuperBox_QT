@@ -1,2 +1,24 @@
-﻿  LINK : 没有找到 C:\Users\86137\source\repos\SuperBox\x64\Debug\SuperBox.exe 或上一个增量链接没有生成它；正在执行完全链接
+﻿  AnimatedGraphicsView.cpp
+  Animator.cpp
+  BattleWindow.cpp
+  Bullet.cpp
+  BulletCustomizeManager.cpp
+  BulletManager.cpp
+  ButtonsManager.cpp
+  CustomizeManager.cpp
+  Enemy.cpp
+  EnemyCreater.cpp
+  EnterUIManager.cpp
+  EnterWindow.cpp
+  Entity.cpp
+  LoadSlot.cpp
+  LoadUIManager.cpp
+  Player.cpp
+  main.cpp
+  superbox.cpp
+  moc_AnimatedGraphicsView.cpp
+  moc_EnterWindow.cpp
+  moc_superbox.cpp
+  qrc_superbox.cpp
+  LINK : 没有找到 C:\Users\86137\source\repos\SuperBox\x64\Debug\SuperBox.exe 或上一个增量链接没有生成它；正在执行完全链接
   SuperBox.vcxproj -> C:\Users\86137\source\repos\SuperBox\x64\Debug\SuperBox.exe
