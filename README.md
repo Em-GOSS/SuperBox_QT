@@ -33,6 +33,66 @@ Hello，welcome to gossemperis‘s Qt aniMachine，this is my first project whic
 
 [![](https://github.com/Em-GOSS/SuperBox_QT/blob/master/image/BG/SuperBOX_Tittle_p.png)](//player.bilibili.com/player.html?isOutside=true&aid=114302954505823&bvid=BV1GmdpYvEQj&cid=29306127525&p=1)
 
+# Animation System
+
+#### animation&&animator
+
+The most basic component of the animation system,
+animation, is a meta base class that serves as the playback data for animator, storing all the data needed to compose a piece of animation. The animator, as a player, is also the storage class for animation and the pool of animation objects. Animation can be played in various ways (concurrent play, wait play, loop play, specified loop count play, maintain play) and can be used in various scenarios.
+
+```
+#pragma once
+#include "qstring.h"
+#include "qlist.h"
+/// <summary>
+/// Warning: this class only use for read
+/// Create as a Data Store
+/// </summary>
+class Animation
+{
+public:
+	QList<QString> ani_Sheets;
+	int ani_Count = NULL;
+	int ani_Interval = NULL;
+
+	Animation(QList<QString> sheets, int aniCount, int aniInterval)
+	{
+		this->ani_Sheets = sheets;
+		this->ani_Count = aniCount;
+		this->ani_Interval = aniInterval;
+	}
+	Animation()
+	{
+
+	}
+
+	int GetTotalTicks()
+	{
+		return ani_Count * ani_Interval;
+	}
+};
+```
+
+```
+Animator(QGraphicsView* ani_Base, QMap<QString, Animation> ani_Dic)
+	{
+		this->ani_Base = ani_Base;
+		this->ani_Dic = ani_Dic;
+
+		//Set the First IDLE Ani As the original ANI
+		originSheetStyle = ani_Dic["idle"].ani_Sheets[0];
+		ani_Base->setStyleSheet(originSheetStyle);
+	}
+```
+
+I use the List of the image pos to build the animation。
+and init it in the animator.
+
+
+
+
+
+
 # How to build the AnimatedGraphicsView：
 
 ```
@@ -141,6 +201,7 @@ GameData-->PlayerStatusData
 LocalData -->PreparingData-->LoadGame
 ```
 
+
 # Components
 
 ```echarts
@@ -165,8 +226,8 @@ LocalData -->PreparingData-->LoadGame
       "BattleSystem",
       "DataProcessing",
       "AniCodePart",
-      "其他",
-      "社交平台"
+      "InventorySystem",
+      "UISystem"
     ],
     "textStyle": {
       "color": "#f2f2f2"
