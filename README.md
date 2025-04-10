@@ -32,3 +32,15 @@
 
 ### [演示视频 demo video]
 [![](https://github.com/Em-GOSS/SuperBox_QT/blob/master/image/BG/SuperBOX_Tittle_p.png)](//player.bilibili.com/player.html?isOutside=true&aid=114302954505823&bvid=BV1GmdpYvEQj&cid=29306127525&p=1)
+
+
+
+
+### 4. 高效绘制[流程图](https://github.com/knsv/mermaid#flowchart)
+```mermaid
+graph TD;
+Animation-->AniMachine
+Animator-->AniMachine-->AnimatedGraphicsView
+Q_OBJECT-->GraphicsView-->AnimatedGraphicsView
+```
+
