@@ -141,15 +141,14 @@ GameData-->PlayerStatusData
 LocalData -->PreparingData-->LoadGame
 ```
 
-
-### 7. 支持图表
+# Components
 
 ```echarts
 {
   "backgroundColor": "#212121",
   "title": {
-    "text": "「晚晴幽草轩」访问来源",
-    "subtext": "2019 年 6 月份",
+    "text": "Project Components",
+    "subtext": "2024.5.20",
     "x": "center",
     "textStyle": {
       "color": "#f2f2f2"
@@ -163,9 +162,9 @@ LocalData -->PreparingData-->LoadGame
     "orient": "vertical",
     "left": "left",
     "data": [
-      "搜索引擎",
-      "直接访问",
-      "推荐",
+      "BattleSystem",
+      "DataProcessing",
+      "AniCodePart",
       "其他",
       "社交平台"
     ],
@@ -175,7 +174,7 @@ LocalData -->PreparingData-->LoadGame
   },
   "series": [
     {
-      "name": "访问来源",
+      "name": "",
       "type": "pie",
       "radius": "55%",
       "center": [
@@ -184,27 +183,27 @@ LocalData -->PreparingData-->LoadGame
       ],
       "data": [
         {
-          "value": 10440,
-          "name": "搜索引擎",
+          "value": 2400,
+          "name": "BattleSystem",
           "itemStyle": {
             "color": "#ef4136"
           }
         },
         {
-          "value": 4770,
-          "name": "直接访问"
+          "value": 1600,
+          "name": "DataProcessing"
         },
         {
-          "value": 2430,
-          "name": "推荐"
+          "value": 6900,
+          "name": "AniCodePart"
         },
         {
-          "value": 342,
-          "name": "其他"
+          "value": 2000,
+          "name": "InventorySystem"
         },
         {
-          "value": 18,
-          "name": "社交平台"
+          "value": 1400,
+          "name": "UISystem"
         }
       ],
       "itemStyle": {
@@ -219,5 +218,4 @@ LocalData -->PreparingData-->LoadGame
 }
 ```
 
-> **备注**：上述 echarts 图表📈，其数据，须使用严格的 **JSON** 格式；您可使用 JSON.stringify(data)，将对象传换从而得标准数据，即可正常使用。
 
