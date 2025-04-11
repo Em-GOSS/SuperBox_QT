@@ -2,7 +2,6 @@
 
 Hello，welcome to gossemperis‘s Qt aniMachine，this is my first project which is build all on my own，Including but not limited to program and art。This project was built while I was learning Qt, so there will be a lot of stupid code written. But in the end this project works smoothly and is exciting!
 
-
 ### **Some Ani created in asprite**
 
 *Convergence of Water Balloon*
@@ -87,11 +86,6 @@ Animator(QGraphicsView* ani_Base, QMap<QString, Animation> ani_Dic)
 
 I use the List of the image pos to build the animation。
 and init it in the animator.
-
-
-
-
-
 
 # How to build the AnimatedGraphicsView：
 
@@ -200,7 +194,6 @@ GameData-->PlayerStatusData
 
 LocalData -->PreparingData-->LoadGame
 ```
-
 
 # Components
 
